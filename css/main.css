@@ -1,0 +1,108 @@
+* {
+  --main: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', 'Rubik', sans-serif;
+  overflow: hidden;
+}
+
+main {
+  background-image: url('../assets/images/background.png');
+  background-repeat: cover;
+  background-position: center;
+  height: 680px;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid var(--main);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: inherit;
+}
+
+.nav.back {
+  justify-content: flex-start;
+}
+
+.nav.footer {
+  position: fixed;
+  bottom: -5px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top: 2px solid var(--main);
+  list-style-type: none;
+  margin: inherit;
+}
+
+.nav__item {
+  margin-top: 20px;
+}
+
+.nav__item a {
+  color: var(--main);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 200ms ease-in;
+}
+
+.nav__item a:hover {
+  box-shadow: 0 4px 0 -2px var(--main);
+}
+
+.nav__item.footer {
+  color: var(--main);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 40px;
+}
+
+.nav__item-back a {
+  border: 1px solid var(--main);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0 20px 0;
+}
+
+.nav__item-back a:hover {
+  box-shadow: 0 0 0 0;
+  cursor: pointer;
+}
+
+.game__logo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.game__description {
+  margin: 0 auto;
+  width: 700px;
+  padding-top: 20px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 22px;
+  color: var(--main);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links img {
+  margin: 20px;
+  width: 140px;
+}

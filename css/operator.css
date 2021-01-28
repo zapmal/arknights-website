@@ -1,0 +1,57 @@
+.operator {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.operator__name,
+.operator__line {
+  text-align: center;
+}
+
+.operator__name {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.operator__line {
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.operator__voice {
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.operator__images {
+  display: flex;
+  justify-content: center;
+}
+
+.operator__image img {
+  width: 400px;
+  flex: 1;
+}
+
+.operator__description p {
+  width: 350px;
+  text-align: center;
+}
+
+.operator__faction {
+  display: flex;
+  justify-content: center;
+}
+
+.operator__faction img {
+  width: 100px;
+}

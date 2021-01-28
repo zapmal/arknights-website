@@ -1,0 +1,26 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.gameplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  flex: 1;
+  padding: 15px;
+}
+
+.item.media {
+  padding: 0;
+}
