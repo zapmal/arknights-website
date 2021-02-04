@@ -55,3 +55,9 @@
 .operator__faction img {
   width: 100px;
 }
+
+@media (max-width: 480px) {
+  .operator__image img {
+    display: none;
+  }
+}

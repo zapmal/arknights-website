@@ -108,8 +108,34 @@ main {
 }
 
 @media (max-width: 480px) {
+
+  .game > *  {
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .game__logo {
+    width: 150px;
+    margin: 20px auto;
+  }
+
+  .links img {
+    width: 90px;
+  }
+
   .nav {
     font-size: 8px;
     padding-left: 0;
+  }
+
+  .nav__item.footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .nav__item-back a {
+    margin-left: 15px;
   }
 }

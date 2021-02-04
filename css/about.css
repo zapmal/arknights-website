@@ -24,3 +24,13 @@ h2 {
 .item.media {
   padding: 0;
 }
+
+@media (max-width: 480px) {
+  .gameplay {
+    font-size: 12px;
+  }
+
+  .gameplay img {
+    display: none;
+  }
+}
