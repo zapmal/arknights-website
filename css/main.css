@@ -108,7 +108,6 @@ main {
 }
 
 @media (max-width: 480px) {
-
   .game > *  {
     font-size: 12px;
     width: 250px;
@@ -120,6 +119,7 @@ main {
   }
 
   .links img {
+    margin: 10px;
     width: 90px;
   }
 
